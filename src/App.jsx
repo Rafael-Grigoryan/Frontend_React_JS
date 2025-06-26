@@ -1,6 +1,6 @@
-import ToDo from './components/Todo';
 import Input from './components/Input';
 import Button from './components/Button';
+import Lists from "./components/Lists";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
                     <Input />
                     <Button />
                 </div>
-                <ToDo />
+                <Lists />
             </div>
         </div>
     );
